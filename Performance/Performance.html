@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Performance</title>
+        <link rel="SHORTCUT ICON" href="../Gallery/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.css">
+        <link href="../main_layout.css" rel="stylesheet"/>
+        <link href="performance_table_layout.css" rel="stylesheet"/>
+        <script src="performance_table_script.js"></script>       
+
+    </head>
+    <body id="Body" style="position: relative; min-height: 100%; top: 0px;">       
+       <header id="pageheader" style="text-align: center; background-color: rgb(11, 173, 25);">STUDENTS PERFORMANCE</header>
+       <div id="performancemenu" style="position: absolute; text-align: center; top:20px; width:98.7vw; height:45px; background-color: rgb(73, 73, 77); ">
+        <ul id="menubuttons" style="position: relative; top:-14px; list-style: none;">
+            <li>
+                <a href="../Home_Page.html">Home</a>
+            </li>  
+            <li>
+                <a href="../Clubs/Clubs.html">Clubs</a>
+            </li>
+            <li>
+                <a href="../koba/Kagumo Old Boys Association.html">Old Boys</a>
+            </li> 
+            <li>
+                <a href="../News/News.html">News</a>
+            </li> 
+            <li>
+                <a href="../videos/Videos.html">Videos</a>
+            </li>
+            <li>
+                <a href="../About/About.html">About</a>
+            </li>
+            <li>
+                <a href="../Departments/Departments.html">Departments</a>
+            </li>
+            <li>
+                <a href="../Societies/Societies.html">Societies</a>
+            </li>
+            <li>
+                <a href="../Gallery/Gallery.html">Gallery</a>
+            </li>                
+        </ul>
+
+        <!--The dropdown appears when the screen width is equal or less than 500px eg. in a phone-->
+        <select name="menu" id="nav_menu_dropdown" onchange="location = this.value;"> 
+            <option value="" selected="selected">Navigation Menu</option>             
+            <option value="../Home_Page.html">Home</option> 
+            <option value="../Clubs/Clubs.html">Clubs</option> 
+            <option value="../koba/Kagumo Old Boys Association.html">KOBA</option> 
+            <option value="../News/News.html">News</option> 
+            <option value="../videos/Videos.html">Videos</option> 
+            <option value="../About/About.html">About</option> 
+            <option value="../Departments/Departments.html">Departments</option> 
+            <option value="../Societies/Societies.html">Societies</option> 
+            <option value="../Gallery/Gallery.html">Gallery</option> 
+        </select>
+
+    </div>      
+    <article id="doc_article">
+        <p>
+            Kagumo High School is a high performance school producing top students in the country.
+        In the last KCSE, 2020, It produced the best underage student who scored an A. This was pointed 
+        out the Education CS Prof. George Magoha in the results briefing just before they were released to the students.
+        He personally acknowledged that the school produces some of the sharpest minds in the country.
+        </p>
+        <p>
+            The teachers together with the support staff in the school work extremely hard to make sure 
+        that the students perform their best.
+        </p>   
+        <p>
+            The students' performance is also as a result of the high discipline portrayed by the students
+        in and out of the school premises. The school is proud to always being top 100 in the country 
+        with the position being top 20 in the 2020 KCSE exam.
+        </p>
+        <p>
+            Below is the performance of the 2020 KCSE studets over the span of the 4 years:
+        </p>
+
+        <p id ="table">
+            <script>mytable()</script>
+        </p>
+    </article>
+    
+    </body>
+    <footer id="footer">
+        <ul>
+            <li><a href="http://www.facebook.com" title="Kagumo Facebook" class="fa fa-facebook-square" ></a> </li>
+            <li><a href="http://twitter.com" title="Kagumo Twitter" class="fa fa-twitter" ></a> </li>
+            <li><a href="http://www.instagram.com" title="Kagumo Instagram" class="fa fa-instagram" ></a> </li>
+            <li><a href="http://www.youtube.com" title="Kagumo Youtube" class="fa fa-youtube" ></a> </li>
+            <li><a href="http://www.flickr.com" title="Kagumo Flickr" class="fa fa-flickr" ></a> </li>
+            <li><a href="http://www.pinterest.com" title="Kagumo Pinterest" class="fa fa-pinterest-square" ></a> </li>
+            <li><a href="http://www.snapchat.com" title="Kagumo Snapchat" class="fa fa-snapchat-square" ></a> </li>
+
+            <li><a id="tel" href="tel:+254759741544" style="position: absolute; color:white; top:5px;"> Tel: 0759 741 544 </a> </li>
+            <li><a id="email" href="mailto:kagumh@gmail.com" style="position: absolute; color:white; top:5px; margin-left: 10%;"> Email: kagumh@gmail.com </a> </li>
+            <li><a id="copyright" href="" style="position: absolute; color:white; top:5px; margin-left: 30%;"> All Rights Reserved. Copyright © Kagumo High School 2022. </a> </li>
+        </ul>
+        <div id="phonescreendiv">
+            <a href="tel:+254759741544" style="position: absolute; color:white; top:5px; margin-left: 23%;"> Tel: 0759 741 544 </a>
+        </div>
+    </footer> 
+</html>
