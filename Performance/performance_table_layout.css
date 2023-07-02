@@ -1,0 +1,16 @@
+table
+{
+   font-size: 1.5vw;
+}
+
+table td
+  {
+    border: 1px solid black;
+    width: 30vw;
+  }
+
+@media screen and (max-width: 500px) 
+{
+     table {font-size: 3vw; } 
+}
+

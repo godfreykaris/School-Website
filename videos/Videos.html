@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+    <head id="head">
+        <meta charset="utf-8">
+        <title>Videos</title>
+        <link rel="SHORTCUT ICON" href="../Gallery/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.css">
+        <link href="../main_layout.css" rel="stylesheet"/>
+        
+        <style>
+            video
+            {
+                width:30vw;
+                height:20vw;
+            }
+        </style>
+
+    </head>
+    <body id="Body" style="position: relative; min-height: 100%; top: 0px;">
+        <header id="pageheader" style=" text-align: center; background-color: rgb(44, 196, 56);">SCHOOL VIDEOS</header>
+        <div id="videosmenu" style="position: absolute; text-align: center; top:20px; width:98.7vw; height:45px; background-color: rgb(73, 73, 77); ">
+         <ul id="menubuttons" style="position: relative; top:-14px; list-style: none;">
+            <li>
+                <a href="../Home_Page.html">Home</a>
+            </li>  
+            <li>
+                <a href="../Performance/Performance.html">Performance</a>
+            </li>
+            <li>
+                <a href="../koba/Kagumo Old Boys Association.html">Old Boys</a>
+            </li> 
+            <li>
+                <a href="../News/News.html">News</a>
+            </li> 
+            <li>
+                <a href="../Clubs/Clubs.html">Clubs</a>
+            </li>
+            <li>
+                <a href="../About/About.html">About</a>
+            </li>
+            <li>
+                <a href="../Departments/Departments.html">Departments</a>
+            </li>
+            <li>
+                <a href="../Societies/Societies.html">Societies</a>
+            </li>
+            <li>
+                <a href="../Gallery/Gallery.html">Gallery</a>
+            </li>                
+        </ul>
+
+        <!--The dropdown appears when the screen width is equal or less than 500px eg. in a phone-->
+        <select name="menu" id="nav_menu_dropdown" onchange="location = this.value;"> 
+            <option value="" selected="selected">Navigation Menu</option>             
+            <option value="../Home_Page.html">Home</option> 
+            <option value="../Performance/Performance.html">Performance</option> 
+            <option value="../koba/Kagumo Old Boys Association.html">KOBA</option> 
+            <option value="../News/News.html">News</option> 
+            <option value="../Clubs/Clubs.html">Clubs</option> 
+            <option value="../About/About.html">About</option> 
+            <option value="../Departments/Departments.html">Departments</option> 
+            <option value="../Societies/Societies.html">Societies</option> 
+            <option value="../Gallery/Gallery.html">Gallery</option> 
+        </select>
+ 
+     </div> 
+    <div id="videos" style="position: absolute; top:60px;">        
+        <main id="content">
+            <div id="videoschilddiv">
+                 <div id="vid_div">
+                    <div style="display: inline;">                        
+                        <a href="Dorm Renovation.mp4"><video controls> <source src="Dorm Renovation.mp4"></video></a>
+                        <a href="https://www.youtube.com/watch?v=N0g7N32ZhZc"><video controls poster="kaagabenchmark.jpg"> <source src="https://www.youtube.com/watch?v=N0g7N32ZhZc"></video></a>
+                        <a href="https://www.youtube.com/watch?v=EThYjG-CXII"><video controls poster="mohoyatour.jpg"> <source src="https://www.youtube.com/watch?v=EThYjG-CXII"></video></a>
+
+                    </div>
+                    
+                </div>          
+
+            </div>
+                        
+        </main>
+        
+     </div>
+    </div>  
+    </body>
+    <footer id="footer">
+        <ul>
+            <li><a href="http://www.facebook.com" title="Kagumo Facebook" class="fa fa-facebook-square" ></a> </li>
+            <li><a href="http://twitter.com" title="Kagumo Twitter" class="fa fa-twitter" ></a> </li>
+            <li><a href="http://www.instagram.com" title="Kagumo Instagram" class="fa fa-instagram" ></a> </li>
+            <li><a href="http://www.youtube.com" title="Kagumo Youtube" class="fa fa-youtube" ></a> </li>
+            <li><a href="http://www.flickr.com" title="Kagumo Flickr" class="fa fa-flickr" ></a> </li>
+            <li><a href="http://www.pinterest.com" title="Kagumo Pinterest" class="fa fa-pinterest-square" ></a> </li>
+            <li><a href="http://www.snapchat.com" title="Kagumo Snapchat" class="fa fa-snapchat-square" ></a> </li>
+
+            <li><a id="tel" href="tel:+254759741544" style="position: absolute; color:white; top:5px;"> Tel: 0759 741 544 </a> </li>
+            <li><a id="email" href="mailto:kagumh@gmail.com" style="position: absolute; color:white; top:5px; margin-left: 10%;"> Email: kagumh@gmail.com </a> </li>
+            <li><a id="copyright" href="" style="position: absolute; color:white; top:5px; margin-left: 30%;"> All Rights Reserved. Copyright © Kagumo High School 2022. </a> </li>
+        </ul>
+        <div id="phonescreendiv">
+            <a href="tel:+254759741544" style="position: absolute; color:white; top:5px; margin-left: 23%;"> Tel: 0759 741 544 </a>
+        </div>
+    </footer> 
+</html>
