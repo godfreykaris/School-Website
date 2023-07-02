@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery</title>
+        <link rel="SHORTCUT ICON" href="../Gallery/logo.png" type="image/x-icon"> 
+        <link rel="stylesheet" href="../fonts/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.css">
+        <link href="../main_layout.css" rel="stylesheet"/>
+    </head>
+    <body id="Body" style="position: relative; min-height: 100%; top: 0px;">
+       <header id="pageheader" style=" text-align: center; background-color: rgb(44, 196, 56);"> PHOTO GALLERY</header>
+       <div id="gallerymenu" style="position: absolute; text-align: center; top:20px; width:98.7vw; height:45px; background-color: rgb(73, 73, 77); ">
+        <ul id="menubuttons" style="position: relative; top:-14px; list-style: none;">
+            <li>
+                <a href="../Home_Page.html">Home</a>
+            </li>  
+            <li>
+                <a href="../Performance/Performance.html">Performance</a>
+            </li>
+            <li>
+                <a href="../koba/Kagumo Old Boys Association.html">Old Boys</a>
+            </li> 
+            <li>
+                <a href="../News/News.html">News</a>
+            </li> 
+            <li>
+                <a href="../videos/Videos.html">Videos</a>
+            </li>
+            <li>
+                <a href="../About/About.html">About</a>
+            </li>
+            <li>
+                <a href="../Departments/Departments.html">Departments</a>
+            </li>
+            <li>
+                <a href="../Societies/Societies.html">Societies</a>
+            </li>
+            <li>
+                <a href="../Clubs/Clubs.html">Clubs</a>
+            </li>                
+        </ul>
+
+        <!--The dropdown appears when the screen width is equal or less than 500px eg. in a phone-->
+        <select name="menu" id="nav_menu_dropdown" onchange="location = this.value;"> 
+            <option value="" selected="selected">Navigation Menu</option>             
+            <option value="../Home_Page.html">Home</option> 
+            <option value="../Performance/Performance.html">Performance</option> 
+            <option value="../koba/Kagumo Old Boys Association.html">KOBA</option> 
+            <option value="../News/News.html">News</option> 
+            <option value="../videos/Videos.html">Videos</option> 
+            <option value="../About/About.html">About</option> 
+            <option value="../Departments/Departments.html">Departments</option> 
+            <option value="../Societies/Societies.html">Societies</option> 
+            <option value="../Clubs/Clubs.html">Clubs</option> 
+        </select>
+    </div>      
+    <div id="gallery" style="position: absolute; top:63px; height:110vh;">        
+        <main id="content">
+            <div id="photos" class="gallery">
+                 <div id="images" class="gallery">
+                    <div class="gallery-wrapper" style="display: inline-block;">                        
+                        <a href="../Gallery/logo.png" style="height: 31vh; width:15vw"><img class="photo" alt="logo." src="../Gallery/logo.png" ></a>
+                        <a href="../Gallery/classes.jpg" style="height: 31vh; width:40vw"><img class="photo" alt="classes." src="../Gallery/classes.jpg"></a>
+                        <a href="../Gallery/dinning hall.jpg" style="height: 31vh; width:30vw"><img class="photo" alt="Dining Hall." src="../Gallery/dinning hall.jpg" ></a>
+                        <a href="../Gallery/Principal.png" style="height: 31vh; width:15w"><img class="photo" alt="Principal." src="../Gallery/Principal.png"></a>
+                        <a href="../Gallery/Deputy Academics.png" style="height: 31vh; width:15vw"><img class="photo" alt="Deputy." src="../Gallery/Deputy Academics.png" ></a>
+                        <a href="../Gallery/visit by education cs 2017.jpg" style="height: 31vh; width:30vw"><img class="photo" alt="Deputy." src="../Gallery/visit by education cs 2017.jpg"></a>
+                        <a href="../Gallery/R.jpg" style="height: 31vh; width:25vw"><img class="photo" alt="School Name." src="../Gallery/R.jpg"></a>
+                        <a href="../Gallery/Principal and Deputy Principal Boarding.jpg" style="height: 31vh; "><img class="photo" alt="Deputy." src="../Gallery/Principal and Deputy Principal Boarding.jpg"></a>
+                        <a href="../Gallery/students sponsorship.jpg" style="height: 31vh; width:35vw"><img class="photo" alt="Deputy." src="../Gallery/students sponsorship.jpg"></a>
+
+                    </div>
+                </div>          
+
+            </div>
+                        
+        </main>        
+     </div>   
+    </body>
+    <footer id="footer">
+        <ul>
+            <li><a href="http://www.facebook.com" title="Kagumo Facebook" class="fa fa-facebook-square" ></a> </li>
+            <li><a href="http://twitter.com" title="Kagumo Twitter" class="fa fa-twitter" ></a> </li>
+            <li><a href="http://www.instagram.com" title="Kagumo Instagram" class="fa fa-instagram" ></a> </li>
+            <li><a href="http://www.youtube.com" title="Kagumo Youtube" class="fa fa-youtube" ></a> </li>
+            <li><a href="http://www.flickr.com" title="Kagumo Flickr" class="fa fa-flickr" ></a> </li>
+            <li><a href="http://www.pinterest.com" title="Kagumo Pinterest" class="fa fa-pinterest-square" ></a> </li>
+            <li><a href="http://www.snapchat.com" title="Kagumo Snapchat" class="fa fa-snapchat-square" ></a> </li>
+
+            <li><a id="tel" href="tel:+254759741544" style="position: absolute; color:white; top:5px;"> Tel: 0759 741 544 </a> </li>
+            <li><a id="email" href="mailto:kagumh@gmail.com" style="position: absolute; color:white; top:5px; margin-left: 10%;"> Email: kagumh@gmail.com </a> </li>
+            <li><a id="copyright" href="" style="position: absolute; color:white; top:5px; margin-left: 30%;"> All Rights Reserved. Copyright © Kagumo High School 2022. </a> </li>
+        </ul>
+        <div id="phonescreendiv">
+            <a href="tel:+254759741544" style="position: absolute; color:white; top:5px; margin-left: 23%;"> Tel: 0759 741 544 </a>
+        </div>
+    </footer> 
+</html>

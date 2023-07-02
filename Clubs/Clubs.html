@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clubs</title>
+        <link rel="SHORTCUT ICON" href="../Gallery/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../fonts/css/font-awesome.css">
+        <link href="../main_layout.css" rel="stylesheet"/>
+        <link href="clubs_layout.css" rel="stylesheet"/> 
+        
+    </head>
+    <body id="Body" style="position: relative; min-height: 100%; top: 0px;">
+       <header id="pageheader" style=" text-align: center; background-color: rgb(44, 196, 56);"> SCHOOL CLUBS</header>
+       <div id="clubsmenu" style="position: absolute; text-align: center; top:20px; width:98.7vw; height:45px; background-color: rgb(73, 73, 77); ">
+        <ul id="menubuttons" style="position: relative; top:-14px; list-style: none;">
+            <li>
+                <a href="../Home_Page.html">Home</a>
+            </li>  
+            <li>
+                <a href="../Performance/Performance.html">Performance</a>
+            </li>
+            <li>
+                <a href="../koba/Kagumo Old Boys Association.html">Old Boys</a>
+            </li> 
+            <li>
+                <a href="../News/News.html">News</a>
+            </li> 
+            <li>
+                <a href="../videos/Videos.html">Videos</a>
+            </li>
+            <li>
+                <a href="../About/About.html">About</a>
+            </li>
+            <li>
+                <a href="../Departments/Departments.html">Departments</a>
+            </li>
+            <li>
+                <a href="../Societies/Societies.html">Societies</a>
+            </li>
+            <li>
+                <a href="../Gallery/Gallery.html">Gallery</a>
+            </li>                
+        </ul>
+
+        <!--The dropdown appears when the screen width is equal or less than 500px eg. in a phone-->
+        <select name="menu" id="nav_menu_dropdown" onchange="location = this.value;"> 
+            <option value="" selected="selected">Navigation Menu</option>             
+            <option value="../Home_Page.html">Home</option> 
+            <option value="../Performance/Performance.html">Performance</option> 
+            <option value="../koba/Kagumo Old Boys Association.html">KOBA</option> 
+            <option value="../News/News.html">News</option> 
+            <option value="../videos/Videos.html">Videos</option> 
+            <option value="../About/About.html">About</option> 
+            <option value="../Departments/Departments.html">Departments</option> 
+            <option value="../Societies/Societies.html">Societies</option> 
+            <option value="../Gallery/Gallery.html">Gallery</option> 
+        </select>
+    </div>      
+    
+    <article id="doc_article" style="height:200vh;">
+        <p>
+            Co-curricullar activities are very important both for the well growth and relaxation for refreshment after a 
+            day of hardwork in the classes. The students really need to be exposed to Clubs that allow them to grow in a 
+            good environment. Kagumo High school has clubs such as:
+            <ol>
+                <li>Wildlife Club</li>
+                <li>Music Club</li>
+                <li>Debate Club</li>
+                <li>St. John's Ambulance Club</li>
+                <li>Kenya Scouts Club</li>
+                <li>Anti-drugs Club</li>
+                <li>Art Club</li>
+                <li>Coding Club</li>
+            </ol>
+        </p>
+        <p>
+            The clubs have teachers as their patrons who ensure that they run their day to day business smoothly. The clubs 
+            leadership is exemplorary therefore gaining the confidence of both the Administration and the members. One of the
+            club leaders <cite> Jeremiah Kiptis, Coding Club</cite> said <q>Coding is the language of the feuture and Kagumo 
+             High School, via the Coding Club, has given us the chance to learn it.</q>
+        </p>   
+        <p>
+            The music club, together with their patron Mr. Kamithi, have been appearing in the National Music Festivals and performing
+            very well. This has made the principal, Dr. Mwirigi, very proud of the school.
+        </p>
+        <p>
+            The Board of Trustees, Parents Association and the entire fraternity is pleased with the work the clubs are doing to enhance
+            students' knowledge, the environment they are offering to them other than class work together with the confidence gained
+            by the students via, for example, the Debate Club whose previous members have successfully been able to attain political 
+            fame and have been able to represent Kenyans in the running of the government.
+        </p>
+
+        <form action="/club_signup.php" method = "POST">
+            <fieldset style="border: 1px solid black;">
+                <legend style="text-align: center;">CLUB REGISTRATION FORM</legend>
+            <fieldset>
+                <p>Personal Information</p>
+                <ol>
+                    <li>
+                        <label for="name"> Full Name: </label>
+                        <input type="text" name="fullname" id="name">
+                    </li>
+
+                    <li>
+                        <label for="adm_no"> Admission Number: </label>
+                        <input type="text" name="AdmissionNo" id="adm_no">
+                    </li>
+
+                    <li>
+                        <label for="form"> Form: </label>
+                        <select name="form">
+                            <option selected>select</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="stream"> Stream: </label>
+                        <select name="stream">
+                            <option selected>select</option>
+                            <option>Y</option>
+                            <option>W</option>
+                            <option>S</option>
+                            <option>R</option>
+                            <option>G</option>
+                            <option>B</option>
+                         </select>
+                    </li>
+
+                    <li>
+                        <label for="contact"> Gurdian's Contact: </label>
+                        <input type="text" name="phonenumber" value="+254 7xx xxx xxx" id="contact">
+                    </li>
+
+                    <li>
+                        <label for="dateofbirth"> Date of Birth: </label>
+                        <input type="date" name="birthday"  id="dateofbirth">
+                    </li>
+
+                    <li>
+                        <label for="passportphoto"> Passport Photo: </label>
+                        <input type="file" name="passprtphoto"  id="passportphoto">
+                    </li>
+                    
+                    <li>
+                        <label for="hobby"> Hobby: </label>
+                        <input type="text" name="hby"  id="hobby">
+                    </li>  
+
+                </ol>
+            </fieldset>
+
+            <fieldset>
+                <p>Club Details</p>
+                <ol>
+                    <li>
+                        <label for="likingofclubs"> To which extent do you feel Clubs are important in schools? <br> </label>
+                        <input type="range" name="liking"  id="likingofclubs">
+                    </li>
+
+                    <li>
+                        <label for="club"> Which club do you want to register to? </label>
+                        <select name="club">
+                            <option selected>Select Club</option>
+                            <option>Wildlife Club</option>
+                            <option>Music Club</option>
+                            <option>Debate Club</option>
+                            <option>St. John's Ambulance Club</option>
+                            <option>Kenya Scouts Club</option>
+                            <option>Anti-drugs Club</option>
+                            <option>Art Club</option>
+                            <option>Coding Club</option>
+                         </select>
+                    </li>
+
+                    <li>
+                        <label> 
+                            <em> Tell us why you like this club?</em> <br> 
+                            <textarea name ="reasonforchoosing" rows="5" cols="50">The club traps my inner soul, making me feel as if I am in another world!
+                            </textarea>
+                        </label>
+                    </li>
+
+                </ol>
+            </fieldset>
+
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+
+         </fieldset>
+        </form>
+
+    </article>
+    </body>
+    <footer id="footer">
+        <ul>
+            <li><a href="http://www.facebook.com" title="Kagumo Facebook" class="fa fa-facebook-square" ></a> </li>
+            <li><a href="http://twitter.com" title="Kagumo Twitter" class="fa fa-twitter" ></a> </li>
+            <li><a href="http://www.instagram.com" title="Kagumo Instagram" class="fa fa-instagram" ></a> </li>
+            <li><a href="http://www.youtube.com" title="Kagumo Youtube" class="fa fa-youtube" ></a> </li>
+            <li><a href="http://www.flickr.com" title="Kagumo Flickr" class="fa fa-flickr" ></a> </li>
+            <li><a href="http://www.pinterest.com" title="Kagumo Pinterest" class="fa fa-pinterest-square" ></a> </li>
+            <li><a href="http://www.snapchat.com" title="Kagumo Snapchat" class="fa fa-snapchat-square" ></a> </li>
+
+            <li><a id="tel" href="tel:+254759741544" style="position: absolute; color:white; top:5px;"> Tel: 0759 741 544 </a> </li>
+            <li><a id="email" href="mailto:kagumh@gmail.com" style="position: absolute; color:white; top:5px; margin-left: 10%;"> Email: kagumh@gmail.com </a> </li>
+            <li><a id="copyright" href="" style="position: absolute; color:white; top:5px; margin-left: 30%;"> All Rights Reserved. Copyright © Kagumo High School 2022. </a> </li>
+        </ul>
+        <div id="phonescreendiv">
+            <a href="tel:+254759741544" style="position: absolute; color:white; top:5px; margin-left: 23%;"> Tel: 0759 741 544 </a>
+        </div>
+    </footer> 
+</html>

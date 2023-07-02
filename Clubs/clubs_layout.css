@@ -1,0 +1,35 @@
+
+
+ol li input
+{
+    width: 20vw;
+}
+
+ol li select
+{
+    color:rgb(216, 120, 84);
+}
+
+fieldset ol
+{
+    list-style-type: none;
+}
+
+form
+{
+    position: relative;  
+    left:20vw; 
+    width: 50vw;
+}
+
+@media screen and (max-width: 970px) 
+{
+     form {font-size: 10px; width: 100%; left: 0vw }
+     ol li input {font-size: 10px; width: 30vw}
+     textarea {font-size: 10px;}
+}
+
+textarea
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
